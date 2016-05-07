@@ -1,0 +1,61 @@
+
+# built
+*.app
+*.a
+
+# osx
+.DS_Store
+
+# win
+*.exe
+*.dll
+
+# xcode
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+xcuserdata
+build
+
+# codeblocks
+*.layout
+*.depend
+*.cbTemp
+
+# example project files
+
+pdExample/Makefile
+pdExample/*.xcodeproj
+pdExample/*.make
+pdExample/*xcconfig
+pdExample/*.plist
+
+pdMultiExample/Makefile
+pdMultiExample/*.xcodeproj
+pdMultiExample/*.make
+pdMultiExample/*xcconfig
+pdMultiExample/*.plist
+
+pdExampleIOS/Makefile
+pdExampleIOS/*.xcodeproj
+pdExampleIOS/*.make
+pdExampleIOS/*xcconfig
+pdExampleIOS/*.plist
+pdExampleIOS/*.pch
+pdExampleIOS/bin/data/Default*.png
+pdExampleIOS/bin/data/Icon*.png
+
+pitchShifter/Makefile
+pitchShifter/*.xcodeproj
+pitchShifter/*.make
+pitchShifter/*xcconfig
+pitchShifter/*.plist
+
+pitchShifterIOS/Makefile
+pitchShifterIOS/*.xcodeproj
+pitchShifterIOS/*.make
+pitchShifterIOS/*xcconfig
+pitchShifterIOS/*.plist
+pitchShifterIOS/*.pch
+pitchShifterIOS/bin/data/Default*.png
+pitchShifterIOS/bin/data/Icon*.png
